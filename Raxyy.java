@@ -39,7 +39,7 @@ System.out.println(b);
 }
 
 /// Switch case neat exxample with int
-/* int day = in.nextInt();
+ int day = in.nextInt();
 
 switch(day){
     case 1, 2, 3, 4, 5 -> System.out.println("Weekday");
@@ -47,4 +47,4 @@ switch(day){
 }
     }
 }
-*/
+
