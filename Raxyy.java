@@ -21,7 +21,7 @@ System.out.println(b);
 
 /// SWITCH CASE IN JAVA
 
-         String fruit = in.next();
+     /*    String fruit = in.next();
         switch (fruit) {
             case "Mango" :
             System.out.println("King");
@@ -46,5 +46,19 @@ switch(day){
     case 6, 7 -> System.out.println("Weekend");
 }
     }
+}
+*/
+
+
+//////Perform SWAP CODE
+
+         int a = 10;
+      int b = 20;
+      int temp = a;
+      a = b;
+      b= temp;
+      System.out.printf(a+ " " +b);
+    }
+
 }
 
