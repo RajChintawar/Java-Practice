@@ -51,13 +51,24 @@ switch(day){
 
 
 //////Perform SWAP CODE
-
+/*
          int a = 10;
       int b = 20;
       int temp = a;
       a = b;
       b= temp;
       System.out.printf(a+ " " +b);
+*/
+
+
+
+  /////VAR ARGUMENTS EXAMPLE      
+
+fun(2,3,45,88,75,77,656,875,85,78,8);
+    }
+    static void fun(int...v){
+      System.out.println(Arrays.toString(v));
+        
     }
 
 }
