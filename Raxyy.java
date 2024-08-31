@@ -64,7 +64,7 @@ switch(day){
 
   /////VAR ARGUMENTS EXAMPLE      
 
-fun(2,3,45,88,75,77,656,875,85,78,8);
+/*fun(2,3,45,88,75,77,656,875,85,78,8);
     }
     static void fun(int...v){
       System.out.println(Arrays.toString(v));   ////Arrays.toString helps to print everything in a array.
@@ -72,4 +72,18 @@ fun(2,3,45,88,75,77,656,875,85,78,8);
     }
 
 }
+*/
 
+
+
+///// ARRAYS and its SYNTAX
+        
+String[] str = new String[5];
+  for(int i= 0; i< str.length; i++){
+    str[i]= in.next();
+  }
+  str[0]= "Yassh";
+  str[1]= "Aditya";
+  System.out.print(Arrays.toString(str));
+}
+}
