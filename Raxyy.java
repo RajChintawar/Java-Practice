@@ -89,8 +89,10 @@ switch(day){
 // }
 
 
-//// Input in an 2D array :
 
+
+        
+//// Input in an 2D array :
 int [][] arr = new int[3][3];
  
 for (int row=0; row< arr.length; row++){
