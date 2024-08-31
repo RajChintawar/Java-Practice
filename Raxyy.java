@@ -78,15 +78,15 @@ switch(day){
 
 ///// ARRAYS and its SYNTAX
         
-// String[] str = new String[5];
-//   for(int i= 0; i< str.length; i++){
-//     str[i]= in.next();
-//   }
-//   str[0]= "Yassh";
-//   str[1]= "Aditya";
-//   System.out.print(Arrays.toString(str));
-// }
-// }
+String[] str = new String[5];
+  for(int i= 0; i< str.length; i++){
+    str[i]= in.next();
+  }
+  str[0]= "Yassh";
+  str[1]= "Aditya";
+  System.out.print(Arrays.toString(str));
+}
+}
 
 
 
