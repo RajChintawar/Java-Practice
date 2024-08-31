@@ -108,4 +108,23 @@ System.out.print(arr[row][col] + " ");
   }
 }
 
+
+
+
+////WAY 2nd to PRINT an multidimensional array but without taking input in terminal no scanner in required.
+
+int [][] raj = {
+  {1, 2, 3},
+  {4, 5},
+  {6, 7, 8}
+};
+for (int row=0; row< raj.length; row++){
+for (int col=0; col< raj[row].length; col++){
+  System.out.print(raj[row][col]+ " ");
+}
+System.out.println();
+}
+  }
+}
+
         
