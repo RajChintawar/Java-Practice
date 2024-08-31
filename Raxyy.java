@@ -78,12 +78,32 @@ switch(day){
 
 ///// ARRAYS and its SYNTAX
         
-String[] str = new String[5];
-  for(int i= 0; i< str.length; i++){
-    str[i]= in.next();
+// String[] str = new String[5];
+//   for(int i= 0; i< str.length; i++){
+//     str[i]= in.next();
+//   }
+//   str[0]= "Yassh";
+//   str[1]= "Aditya";
+//   System.out.print(Arrays.toString(str));
+// }
+// }
+
+
+//// Input in an 2D array :
+
+int [][] arr = new int[3][3];
+ 
+for (int row=0; row< arr.length; row++){
+  //for row
+
+for (int col=0; col<arr[row].length; col++){
+
+arr[row][col] = in.nextInt();
+System.out.print(arr[row][col] + " ");
   }
-  str[0]= "Yassh";
-  str[1]= "Aditya";
-  System.out.print(Arrays.toString(str));
+  System.out.println();
 }
+  }
 }
+
+        
