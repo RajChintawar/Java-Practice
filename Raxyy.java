@@ -67,7 +67,7 @@ switch(day){
 fun(2,3,45,88,75,77,656,875,85,78,8);
     }
     static void fun(int...v){
-      System.out.println(Arrays.toString(v));
+      System.out.println(Arrays.toString(v));   ////Arrays.toString helps to print everything in a array.
         
     }
 
