@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Raxyy {
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        // Scanner in = new Scanner(System.in);
 /*int n = in.nextInt();
 int a = 0;
 int b = 1;
@@ -126,5 +126,28 @@ System.out.println();
 }
   }
 }
+
+
+///// ARRAY LIST EXAMPLE AND VARIUOS FUNCTION IN IT  !!!!
+
+rrayList<String> list = new ArrayList<>(6);
+list.add("Raj");
+list.add("Yash");
+list.add("Soh");
+list.add("Anish");
+list.add("Ravi");
+list.add("Adi");
+list.add("Soham");
+list.add("Shubh");
+
+System.out.println(list);
+System.out.println(list.contains("Sam"));
+list.set(2, "Payal");
+System.out.println(list);
+list.remove(2);
+System.out.println(list);
+  }
+}
+
 
         
