@@ -130,7 +130,7 @@ System.out.println();
 
 ///// ARRAY LIST EXAMPLE AND VARIUOS FUNCTION IN IT  !!!!
 
-rrayList<String> list = new ArrayList<>(6);
+ArrayList<String> list = new ArrayList<>(6);
 list.add("Raj");
 list.add("Yash");
 list.add("Soh");
