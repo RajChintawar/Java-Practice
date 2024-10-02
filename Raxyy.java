@@ -4,7 +4,7 @@ public class Raxyy {
 
     public static void main(String[] args) {
         // Scanner in = new Scanner(System.in);
-/*int n = in.nextInt();
+int n = in.nextInt();
 int a = 0;
 int b = 1;
 int count = 2;
@@ -16,12 +16,12 @@ while ( count <= n) {
 }
 System.out.println(b);
 }
-}*/
+}
 
 
 /// SWITCH CASE IN JAVA
 
-     /*    String fruit = in.next();
+      String fruit = in.next();
         switch (fruit) {
             case "Mango" :
             System.out.println("King");
@@ -47,7 +47,7 @@ switch(day){
 }
     }
 }
-*/
+
 
 
 //////Perform SWAP CODE
@@ -147,6 +147,77 @@ System.out.println(list);
 list.remove(2);
 System.out.println(list);
   }
+}
+
+
+
+int [] nums = {1, 2, 3, 4, 7 ,9,11};
+int target = 11;
+int ans = Lsearch(nums, target);
+System.out.println(ans);
+        }
+    
+
+static int Lsearch( int[] arr, int target){
+    if (arr.length== 0){
+        return -1;
+    }
+    for (int index =0 ; index<arr.length ; index++){
+        int element = arr[index]; 
+        if (element ==target){
+            return index;
+        }
+        
+    }
+    return -1;
+
+        
+    }
+}
+
+
+String name = "Soham";
+char target ='S';
+System.out.println(search(name, target));
+    }
+    static boolean search(String str, char target){
+        if (str.length()==0){
+            return false;
+        }
+        for(int i=0; i<str.length(); i++){
+            if(target == str.charAt(i)){
+                return true;
+            }
+        }
+        return false;
+    }
+}
+
+
+/////// SEARCHING ELEMENT IN ARRRAY IN A PARTICULAR RANGE OF INDEX.
+
+int [] nums = {1, 2, 3, 4, 7 ,9,11};
+int target = 4;
+int ans = Lsearch(nums, target);
+System.out.println(ans);
+        }
+    
+
+static int Lsearch( int[] arr, int target){
+    if (arr.length== 0){
+        return -1;
+    }
+    for (int index =1 ; index<=5 ; index++){
+        int element = arr[index]; 
+        if (element ==target){
+            return index;
+        }
+        
+    }
+    return -1;
+
+        
+    }
 }
 
 
