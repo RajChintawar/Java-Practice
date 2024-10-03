@@ -238,3 +238,14 @@ static int Lsearch( int[] arr, int target){
             return ans;
         }
 }
+
+
+int[][] arr = {
+    {21,31,66},
+    {55,89,30},
+    {92,45,200,89}
+};
+System.out.println(Arrays.deepToString(arr));
+    }
+}
+
