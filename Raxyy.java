@@ -239,6 +239,7 @@ static int Lsearch( int[] arr, int target){
         }
 }
 
+///PRINTING A 2D ARRAY.
 
 int[][] arr = {
     {21,31,66},
