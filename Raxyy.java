@@ -221,4 +221,20 @@ static int Lsearch( int[] arr, int target){
 }
 
 
-        
+/////LINEAR SEARCH OF MINIMUM ELEMENT IN ARRAY.
+
+ int[] arr = {59, 82, 41, 21, -5, 22};
+ System.out.println(min(arr));
+
+    }
+    static int min(int[] arr){
+        int ans= arr[0];
+        for (int i =1;  i < arr.length ; i++){
+            if (arr[i]< ans){
+                ans=arr[i];
+            }
+            
+        }
+            return ans;
+        }
+}
