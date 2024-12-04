@@ -4,6 +4,9 @@ public class Raxyy {
 
     public static void main(String[] args) {
         // Scanner in = new Scanner(System.in);
+
+
+        ///Fibbounachi Nos. Code.
 int n = in.nextInt();
 int a = 0;
 int b = 1;
@@ -248,5 +251,21 @@ int[][] arr = {
 };
 System.out.println(Arrays.deepToString(arr));
     }
+}
+
+
+//Count of same integer in a no. 
+//Example: Consider no. 5448444 and need to count how many times 4 occured ans is 5.
+int n = 5448444;
+int count =0;
+while(n>0){
+  int rem = n%10;
+  if(rem ==4){
+    count++;
+  }
+  n = n/10;
+}
+System.out.println(count);
+  }
 }
 
