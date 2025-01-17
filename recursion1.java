@@ -29,3 +29,22 @@ public static void printnumb(int i,int n , int sum){
         
     }
 }
+
+
+//Calculate Factorial
+public static int calcfactorial(int n ){
+    if(n==1||n==0){
+ return 1;
+    }
+    int fact = calcfactorial(n-1);
+    int factn = n*fact;
+    return factn;
+}
+
+public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+    int n = in.nextInt();
+   int ans = calcfactorial(n);
+   System.out.println(ans);
+}
+}
