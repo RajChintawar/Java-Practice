@@ -48,3 +48,30 @@ public static void main(String[] args) {
    System.out.println(ans);
 }
 }
+
+
+
+
+//Raise to function 
+
+public static int raiseto(int x, int n){
+    if(n==0){
+        return 1;
+    }
+    if(x==0){
+        return 0;
+    }
+ int pownm1 = raiseto(x, n-1);
+ int pow = x*pownm1;
+ return pow;
+}
+
+
+public static void main(String[] args) {
+ 
+ Scanner in = new Scanner (System.in);
+    int x= in.nextInt();
+    int n = in.nextInt();
+int ans = raiseto(x, n);
+System.out.println(ans);
+}
