@@ -71,3 +71,30 @@ public static void main(String[] args) {
     System.out.println(dhakan(arr, 0));
 }
 }
+
+
+//Repetative element in a index is shift to last of the string.
+
+
+public static void manass(String str , int idx , int count, String newstr ){
+if(idx ==str.length()){
+    for(int i =0; i<count; i++){
+        newstr+='x';
+    }
+    System.out.println(newstr);
+    return;
+}
+    char currChar= str.charAt(idx);
+    if (currChar =='x'){
+    count++;
+    manass(str, idx+1, count, newstr);
+    }else{ 
+    newstr += currChar;
+    manass(str, idx+1, count, newstr);
+}
+}
+public static void main(String[] args) {
+    String str = "Rxaxxxj";
+    manass(str, 0, 0, "");
+}
+}
