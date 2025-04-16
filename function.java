@@ -70,3 +70,41 @@ public static void main(String[] args) {
 }
 }
 
+
+
+
+
+
+
+
+
+
+//Using class and static variable
+
+class Demo{
+    String brand;
+    int price;
+   static String name;   ///static variable created.
+
+    public void show(){
+        System.out.println(brand +":"+ price +":"+ name);
+    }
+}
+public class Mobile{
+    public static void main(String[] args) {
+        Demo rom = new Demo();
+rom.brand ="Apple";
+rom.price = 15000;
+Demo.name = "Smartphone";  //can be called by class name and no object creation is nessecary.
+
+Demo roa = new Demo();
+roa.brand ="Samsung";
+roa.price = 1500;
+Demo.name = "Smartphone";
+
+rom.show();
+roa.show();
+    }
+}
+
+
